@@ -1,0 +1,10 @@
+1.安装git
+2.初始化git  代码为  git init
+3.git add 文件名     //将文件提交到暂存区
+4.git commit -m "注释，你想要提交的说明"       //将文件提交到git仓库
+5.git status          //查看暂存区里面的文件
+6.git log  	          //查看提交的次数和提交的
+7.git reset --hard head^   //退回上次提交的时候，几个^就退回几次
+8.git reset --hard 版本中commit后面的16进制编码的前七位    //回到以前的版本
+9.git diff --cached   //查看暂存区中没提交到git仓库中文件的差别
+10.git reflog            //查看所有提交操作的记录。
